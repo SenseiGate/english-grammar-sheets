@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.63">
+<title>Conditionals 0–1–2–3 + Mixed – B1-B2</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f5f7fa;
+        padding: 40px;
+        max-width: 900px;
+        margin: auto;
+        line-height: 1.7;
+        color: #333;
+    }
+.level-badge {
+  display: block;
+  border: 1px solid #333;
+  background: #ffffff;
+  padding: 6px 12px;
+  font-size: 0.85em;
+  line-height: 1.4;
+  margin: 0 auto 10px auto;
+  border-radius: 4px;
+  width: fit-content;
+}
+.badge-line {
+  white-space: nowrap;
+}
+   h1 {
+  text-align: center;
+  font-size: 1.8em;
+  color: #2a4d69;
+  margin-bottom: 10px;
+}
+h2 {
+    background: #E3EEF3;
+    color: #2a4d69;
+    font-size: 1.2em;
+    padding: 12px 20px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    border-radius: 12px 12px 0 0;
+    border: 1px solid #d0d7de;
+    border-bottom: none;
+  }
+
+    .section-box {
+        background: #ffffff;
+        border: 1px solid #d0d7de;
+        border-radius: 0 0 12px 12px;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        margin-bottom: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 15px 0;
+        background: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    th {
+        background: #E3EEF3;
+        padding: 10px;
+        border-bottom: 2px solid #d0d7de;
+        text-align: left;
+    }
+
+    td {
+        padding: 10px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .exercise-item { margin-bottom: 15px; }
+
+    .answer {
+        display: none;
+        margin-top: 8px;
+        padding: 8px;
+        background: #f0f0f0;
+        border-left: 3px solid #999;
+    }
+
+    button {
+        padding: 6px 10px;
+        cursor: pointer;
+        background: #e0e0e0;
+        color: #333;
+        border: 1px solid #c8c8c8;
+        border-radius: 6px;
+        display: block;
+        margin-bottom: 18px;
+    }
+
+    button:hover { background: #d5d5d5; }
+
+    ul { margin-left: 20px; }
+
+    .jp-note {
+        font-size: 0.9em;
+        color: #555;
+        margin-top: 4px;
+        margin-bottom: 12px;
+    }
+</style>
+
+<script>
+function toggleAnswer(id) {
+    const el = document.getElementById(id);
+    const current = window.getComputedStyle(el).display;
+el.style.display = current === "none" ? "block" : "none";
+}
+</script>
+
+</head>
+<body>
+
+<div class="level-badge">
+  <div class="badge-line">CEFR: B1-B2</div>
+</div>
+
+<h1>Lesson 10: Conditionals – Zero, First, Second, Third & Mixed</h1>
+
+<!-- 📚 1. GRAMMAR EXPLANATION -->
+<h2>📚 1. Grammar Explanation（文法の説明）</h2>
+<div class="section-box">
+
+<h3>1. Zero & First Conditional（0・1条件文）</h3>
+<p>
+<b>Zero Conditional</b> = general truths, rules.  
+→ いつも起こること・事実。  
+<b>If + present → present</b>
+</p>
+
+<p>
+<b>First Conditional</b> = real future possibility.  
+→ 現実的な未来の可能性。  
+<b>If + present → will + verb</b>
+</p>
+
+<table>
+<tr><th>Type</th><th>Example</th></tr>
+<tr><td>Zero</td><td>If you heat ice, it melts.</td></tr>
+<tr><td>First</td><td>If it rains, we will stay home.</td></tr>
+</table>
+
+<h3>2. Second & Third Conditional（2・3条件文）</h3>
+<p>
+<b>Second Conditional</b> = unreal / imaginary present.  
+→ 現在の「もし〜なら」仮定。  
+<b>If + past → would + verb</b>
+</p>
+
+<p>
+<b>Third Conditional</b> = unreal past.  
+→ 過去の「もし〜していたら」仮定。  
+<b>If + had + past participle → would have + past participle</b>
+</p>
+
+<table>
+<tr><th>Type</th><th>Example</th></tr>
+<tr><td>Second</td><td>If I had more time, I would travel more.</td></tr>
+<tr><td>Third</td><td>If she had studied, she would have passed.</td></tr>
+</table>
+
+<h3>3. Mixed Conditionals（ミックス条件文）</h3>
+<p>
+Used when the time in the “if” clause and the result clause are different.  
+→ if節と結果節の時間が異なるときに使います。
+</p>
+
+<table>
+<tr><th>Type</th><th>Example</th></tr>
+<tr><td>Past → Present</td><td>If I had slept more, I would feel better now.</td></tr>
+<tr><td>Present → Past</td><td>If I were more careful, I wouldn’t have made that mistake.</td></tr>
+</table>
+
+<h3>4. Common Japanese Learner Errors（日本人学習者のよくある間違い）</h3>
+<ul>
+<li>❌ Using “will” after “if” → If it <b>will rain</b>…  
+→ 正しくは If it <b>rains</b>…</li>
+<li>❌ Mixing tenses incorrectly → If I <b>study</b>, I <b>would pass</b>.  
+→ 時制が合っていない。</li>
+<li>❌ Forgetting “had” in third conditional → If I <b>studied</b>, I would have passed.  
+→ 正しくは If I <b>had studied</b>…</li>
+</ul>
+
+</div>
+
+<!-- ✏️ 2. SHORT EXAMPLE SENTENCES -->
+<h2>✏️ 2. Short Example Sentences（短い例文）</h2>
+<div class="section-box">
+<ul>
+<li>
+If you mix red and blue, you get purple.
+<div class="jp-note">赤と青を混ぜると紫になります。</div>
+</li>
+<li>
+If it rains tomorrow, we will cancel the trip.
+<div class="jp-note">明日雨なら旅行を中止します。</div>
+</li>
+<li>
+If I had a car, I would drive to work.
+<div class="jp-note">車があれば車で通勤するのに。</div>
+</li>
+<li>
+If she had left earlier, she would have caught the train.
+<div class="jp-note">もっと早く出ていれば電車に間に合ったのに。</div>
+</li>
+<li>
+If I had slept more, I would feel better now.
+<div class="jp-note">もっと寝ていれば今気分が良いのに。</div>
+</li>
+<li>
+If he were taller, he would play basketball.
+<div class="jp-note">彼がもっと背が高ければバスケをするでしょう。</div>
+</li>
+<li>
+If you heat water to 100°C, it boils.
+<div class="jp-note">水を100度まで加熱すると沸騰します。</div>
+</li>
+</ul>
+</div>
+
+<!-- 📝 3. LONGER EXAMPLE SENTENCES -->
+<h2>📝 3. Longer Example Sentences（長い例文）</h2>
+<div class="section-box">
+<ul>
+<li>
+If you don’t follow the instructions carefully, the machine will not work properly.
+<div class="jp-note">説明をよく読まないと、機械は正しく動きません。</div>
+</li>
+
+<li>
+If I had more free time, I would join a language exchange group to practice speaking.
+<div class="jp-note">もっと時間があれば、会話練習のためにランゲージエクスチェンジに参加するのに。</div>
+</li>
+
+<li>
+If she had known about the meeting, she would have prepared the documents earlier.
+<div class="jp-note">会議のことを知っていれば、もっと早く資料を準備していたでしょう。</div>
+</li>
+
+<li>
+If I hadn’t missed the bus, I would be at the office by now.
+<div class="jp-note">バスに乗り遅れていなければ、今ごろオフィスにいるはずです。</div>
+</li>
+
+<li>
+If the weather improves tomorrow, we will go hiking in the mountains.
+<div class="jp-note">明日天気が良くなれば、山にハイキングに行きます。</div>
+</li>
+</ul>
+</div>
+
+<!-- 🧩 4. PRACTICE EXERCISES -->
+<h2>🧩 4. Practice Exercises（練習問題）</h2>
+<div class="section-box">
+
+<h3>Exercise A – Choose the correct option（正しい答えを選びましょう）</h3>
+
+<div class="exercise-item">
+1. If it rains, we ______ inside. (stay / will stay / stayed)
+<button onclick="toggleAnswer('ea1')">Show Answer</button>
+<div id="ea1" class="answer">will stay</div>
+</div>
+
+<div class="exercise-item">
+2. If I had more money, I ______ a new laptop. (buy / will buy / would buy)
+<button onclick="toggleAnswer('ea2')">Show Answer</button>
+<div id="ea2" class="answer">would buy</div>
+</div>
+
+<div class="exercise-item">
+3. If she had studied harder, she ______ the exam. (passes / would pass / would have passed)
+<button onclick="toggleAnswer('ea3')">Show Answer</button>
+<div id="ea3" class="answer">would have passed</div>
+</div>
+
+<div class="exercise-item">
+4. If you heat metal, it ______. (expands / expanded / will expand)
+<button onclick="toggleAnswer('ea4')">Show Answer</button>
+<div id="ea4" class="answer">expands</div>
+</div>
+
+<div class="exercise-item">
+5. If I hadn’t eaten so much, I ______ sick now. (wouldn’t feel / won’t feel / wouldn’t have felt)
+<button onclick="toggleAnswer('ea5')">Show Answer</button>
+<div id="ea5" class="answer">wouldn’t feel</div>
+</div>
+
+<h3>Exercise B – Complete the sentence（文を完成させましょう）</h3>
+
+<div class="exercise-item">
+1. If I ______ (know) the answer, I would tell you.
+<button onclick="toggleAnswer('eb1')">Show Answer</button>
+<div id="eb1" class="answer">knew</div>
+</div>
+
+<div class="exercise-item">
+2. If she had left earlier, she ______ ______ (catch) the bus.
+<button onclick="toggleAnswer('eb2')">Show Answer</button>
+<div id="eb2" class="answer">would have caught</div>
+</div>
+
+<div class="exercise-item">
+3. If it rains tomorrow, we ______ (stay) home.
+<button onclick="toggleAnswer('eb3')">Show Answer</button>
+<div id="eb3" class="answer">will stay</div>
+</div>
+
+<div class="exercise-item">
+4. If I hadn’t been so tired, I ______ ______ (join) the event.
+<button onclick="toggleAnswer('eb4')">Show Answer</button>
+<div id="eb4" class="answer">would have joined</div>
+</div>
+
+<div class="exercise-item">
+5. If he were more organized, he ______ (make) fewer mistakes.
+<button onclick="toggleAnswer('eb5')">Show Answer</button>
+<div id="eb5" class="answer">would make</div>
+</div>
+
+</div>
+
+<!-- 📖 5. SHORT READING TEXT -->
+<h2>📖 5. Short Reading Text（短い読解文）</h2>
+<div class="section-box">
+
+<h3 style="margin-top: 0;">Learning and Growing Through Workplace Challenges</h3>
+
+<p>
+Last year, I started a new job that required a lot of teamwork and communication.  
+If I hadn’t taken an English course before joining the company, I would have struggled much more during the first few months.  
+There were many situations where I needed to explain ideas clearly, and if I hadn’t practiced speaking, I wouldn’t have been able to participate confidently.  
+My manager often said that if we worked together effectively, we would achieve better results, and he was right.
+</p>
+
+<p style="margin-top: 22px;">
+Now, I feel more comfortable expressing my thoughts, but I still make mistakes.  
+If I had more time, I would study grammar more deeply, especially conditionals, because they appear everywhere in business communication.  
+Sometimes I think that if I were more organized, I wouldn’t forget small tasks.  
+Still, I try to improve little by little.  
+If I continue learning consistently, I know I will become more confident and effective in my work.
+</p>
+
+<h3>職場での挑戦を通じた学びと成長</h3>
+
+<p>
+昨年、私はチームワークとコミュニケーションが多く必要な新しい仕事を始めました。  
+会社に入る前に英語コースを受けていなかったら、最初の数か月はもっと苦労していたと思います。  
+アイデアを明確に説明しなければならない場面が多く、話す練習をしていなければ、自信を持って参加できなかったでしょう。  
+マネージャーはよく「効果的に協力すれば、より良い結果が出る」と言っていて、その通りでした。
+</p>
+
+<p style="margin-top: 22px;">
+今では自分の考えを伝えることに慣れてきましたが、まだ間違えることもあります。  
+もっと時間があれば、文法、特に条件文をもっと深く勉強したいと思います。  
+ビジネスコミュニケーションでは条件文がよく使われるからです。  
+時々「もっと整理整頓ができていれば、小さなタスクを忘れないのに」と思うこともあります。  
+それでも少しずつ改善しようとしています。  
+継続して学び続ければ、もっと自信を持って効果的に働けるようになると感じています。
+</p>
+
+</div>
+
+<!-- ❓ 6. READING COMPREHENSION QUESTIONS -->
+<h2>❓ 6. Reading Comprehension Questions（読解問題）</h2>
+<div class="section-box">
+
+<div class="exercise-item">
+1. Why would the writer have struggled without the English course?
+<button onclick="toggleAnswer('rq1')">Show Answer</button>
+<div id="rq1" class="answer">Because they needed to explain ideas clearly at work.</div>
+</div>
+
+<div class="exercise-item">
+2. What did the manager say about teamwork?
+<button onclick="toggleAnswer('rq2')">Show Answer</button>
+<div id="rq2" class="answer">He said that effective teamwork would lead to better results.</div>
+</div>
+
+<div class="exercise-item">
+3. What would the writer study more deeply if they had more time?
+<button onclick="toggleAnswer('rq3')">Show Answer</button>
+<div id="rq3" class="answer">Grammar, especially conditionals.</div>
+</div>
+
+<div class="exercise-item">
+4. What mistake does the writer sometimes make?
+<button onclick="toggleAnswer('rq4')">Show Answer</button>
+<div id="rq4" class="answer">They sometimes forget small tasks.</div>
+</div>
+
+<div class="exercise-item">
+5. What does the writer believe will happen if they continue learning?
+<button onclick="toggleAnswer('rq5')">Show Answer</button>
+<div id="rq5" class="answer">They will become more confident and effective at work.</div>
+</div>
+
+</div>
+
+<!-- 🎯 7. SUMMARY -->
+<h2>🎯 7. Summary（まとめ）</h2>
+<div class="section-box">
+<ul>
+<li>
+<b>0 Conditional</b> = facts.
+<div class="jp-note">0条件文＝事実。</div>
+</li>
+<li>
+<b>1st Conditional</b> = real future.
+<div class="jp-note">1条件文＝現実の未来。</div>
+</li>
+<li>
+<b>2nd Conditional</b> = unreal present.
+<div class="jp-note">2条件文＝現在の仮定。</div>
+</li>
+<li>
+<b>3rd Conditional</b> = unreal past.
+<div class="jp-note">3条件文＝過去の仮定。</div>
+</li>
+<li>
+<b>Mixed</b> = different times.
+<div class="jp-note">ミックス条件文＝時間が混ざる。</div>
+</li>
+</ul>
+</div>
+
+<div style="text-align:center; margin-top:30px;">
+    <a href="index.html" style="text-decoration:none; font-size:18px;">⬅️ Back to Index</a>
+</div>
+
+</body>
+</html>

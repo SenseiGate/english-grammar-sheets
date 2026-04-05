@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.63">
+<title>Simple Present — Questions</title>
+
+<style>
+  body {
+    font-family: system-ui, sans-serif;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.7;
+    background: #f5f7fa;
+  }
+  .level-badge {
+  display: block;
+  border: 1px solid #333;
+  background: #ffffff;
+  padding: 6px 12px;
+  font-size: 0.85em;
+  line-height: 1.4;
+  margin: 0 auto 10px auto;
+  border-radius: 4px;
+  width: fit-content;
+}
+.badge-line {
+  white-space: nowrap;
+}
+h1 {
+  text-align: center;
+  font-size: 1.8em;
+  color: #2a4d69;
+  margin-bottom: 10px;
+}
+h2 {
+  background: #E3EEF3;
+  color: #2a4d69;
+  font-size: 1.2em;
+  padding: 12px 20px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  border-radius: 12px 12px 0 0;
+  border: 1px solid #d0d7de;
+  border-bottom: none;
+}
+  .section-box {
+    background: #ffffff;
+    border: 1px solid #d0d7de;
+    padding: 22px;
+    border-radius: 0 0 10px 10px;
+    margin-top: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+
+  th {
+    background: #E3EEF3;
+  }
+
+  .example-item,
+  .question-item {
+    margin-bottom: 14px;
+  }
+
+  .example-en {
+    font-weight: 600;
+  }
+
+  .jp-note {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin-top: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+    background: #e0e0e0;
+    color: #333;
+    border: 1px solid #c8c8c8;
+    border-radius: 6px;
+  }
+
+  button:hover {
+    background: #d5d5d5;
+  }
+
+  .answer {
+    display: none;
+    margin-top: 8px;
+    padding: 8px;
+    background: #f0f0f0;
+    border-left: 3px solid #999;
+  }
+
+  ul {
+    padding-left: 1.2em;
+  }
+
+  ul li {
+    margin-bottom: 0.6em;
+  }
+</style>
+
+<script>
+function toggleAnswer(id) {
+  const el = document.getElementById(id);
+  const current = window.getComputedStyle(el).display;
+  el.style.display = current === "none" ? "block" : "none";
+}
+</script>
+
+</head>
+<body>
+
+<div class="level-badge">
+  <div class="badge-line">CEFR: A1</div>
+</div>
+</div>
+
+<h1>Lesson 11: Simple Present — Questions</h1>
+
+
+<!-- 📚 Grammar Explanation -->
+<h2>📚 1. Grammar Explanation（文法の説明）</h2>
+<div class="section-box">
+
+<p>We use <strong>Do / Does</strong> to ask questions in the simple present.</p>
+<p class="jp-note">現在形の疑問文は <strong>Do / Does</strong> を使います。</p>
+
+<p>Use <strong>Do</strong> for <strong>I / you / we / they</strong>.  
+Use <strong>Does</strong> for <strong>he / she / it</strong>.</p>
+<p class="jp-note">I / you / we / they → Do、he / she / it → Does。</p>
+
+<table>
+  <tr><th>Subject</th><th>Question Form</th><th>Example</th></tr>
+  <tr><td>I / you / we / they</td><td>Do + subject + verb?</td><td>Do you play tennis?</td></tr>
+  <tr><td>he / she / it</td><td>Does + subject + verb?</td><td>Does she play tennis?</td></tr>
+</table>
+
+<p>After <strong>Do / Does</strong>, the verb is the <strong>base form</strong>.</p>
+<p class="jp-note">Do / Does の後は動詞の原形を使います。</p>
+
+</div>
+<!-- ✏️ Short Example Sentences -->
+<h2>✏️ 2. Short Example Sentences（短い例文）</h2>
+<div class="section-box">
+<ul>
+  <li>Do you like cats?<br>
+    <div class="jp-note">（あなたは猫が好きですか。）</div>
+  </li>
+  <li>Does she play the piano?<br>
+    <div class="jp-note">（彼女はピアノを弾きますか。）</div>
+  </li>
+  <li>Do they eat breakfast?<br>
+    <div class="jp-note">（彼らは朝ごはんを食べますか。）</div>
+  </li>
+  <li>Does he like music?<br>
+    <div class="jp-note">（彼は音楽が好きですか。）</div>
+  </li>
+  <li>Do you study English?<br>
+    <div class="jp-note">（あなたは英語を勉強しますか。）</div>
+  </li>
+  <li>Does it rain a lot here?<br>
+    <div class="jp-note">（ここでは雨がよく降りますか。）</div>
+  </li>
+  <li>Do we have class today?<br>
+    <div class="jp-note">（今日は授業がありますか。）</div>
+  </li>
+</ul>
+</div>
+<!-- 📝 Longer Example Sentences -->
+<h2>📝 3. Longer Example Sentences（長い例文）</h2>
+<div class="section-box">
+<ul>
+  <li>Do you eat breakfast at home, or do you eat at school?<br>
+    <div class="jp-note">（あなたは家で朝ごはんを食べますか、それとも学校で食べますか。）</div>
+  </li>
+  <li>Does your brother play soccer after school with his friends?<br>
+    <div class="jp-note">（あなたの弟は放課後友だちとサッカーをしますか。）</div>
+  </li>
+  <li>Do they walk to school, or do they take the bus?<br>
+    <div class="jp-note">（彼らは歩いて学校へ行きますか、それともバスに乗りますか。）</div>
+  </li>
+  <li>Does she study English every day after dinner?<br>
+    <div class="jp-note">（彼女は夕食のあと毎日英語を勉強しますか。）</div>
+  </li>
+  <li>Do you read books in your free time at home?<br>
+    <div class="jp-note">（あなたは家で自由時間に本を読みますか。）</div>
+  </li>
+</ul>
+</div>
+
+<!-- 🧩 Practice Exercises -->
+<h2>🧩 4. Practice Exercises（練習問題）</h2>
+<div class="section-box">
+
+<h3>Exercise A – Choose the correct option</h3>
+<p class="jp-note">正しい文をえらびましょう。</p>
+
+<div class="question-item">
+1. ___ you like dogs?<br>
+a) Do  b) Does<br>
+<button onclick="toggleAnswer('ea1')">Show Answer</button>
+<div id="ea1" class="answer">Do</div>
+</div>
+
+<div class="question-item">
+2. ___ she play tennis?<br>
+a) Do  b) Does<br>
+<button onclick="toggleAnswer('ea2')">Show Answer</button>
+<div id="ea2" class="answer">Does</div>
+</div>
+
+<div class="question-item">
+3. ___ they eat lunch at school?<br>
+a) Do  b) Does<br>
+<button onclick="toggleAnswer('ea3')">Show Answer</button>
+<div id="ea3" class="answer">Do</div>
+</div>
+
+<div class="question-item">
+4. ___ he like apples?<br>
+a) Do  b) Does<br>
+<button onclick="toggleAnswer('ea4')">Show Answer</button>
+<div id="ea4" class="answer">Does</div>
+</div>
+
+<div class="question-item">
+5. ___ you study math?<br>
+a) Do  b) Does<br>
+<button onclick="toggleAnswer('ea5')">Show Answer</button>
+<div id="ea5" class="answer">Do</div>
+</div>
+
+<h3>Exercise B – Complete the sentence</h3>
+<p class="jp-note">かっこに入る形で文を完成させましょう。（選択肢なし）</p>
+
+<div class="question-item">
+1. ___ you play the piano?<br>
+<button onclick="toggleAnswer('eb1')">Show Answer</button>
+<div id="eb1" class="answer">Do you play the piano?</div>
+</div>
+
+<div class="question-item">
+2. ___ she like cats?<br>
+<button onclick="toggleAnswer('eb2')">Show Answer</button>
+<div id="eb2" class="answer">Does she like cats?</div>
+</div>
+
+<div class="question-item">
+3. ___ they live near the school?<br>
+<button onclick="toggleAnswer('eb3')">Show Answer</button>
+<div id="eb3" class="answer">Do they live near the school?</div>
+</div>
+
+<div class="question-item">
+4. ___ he study English?<br>
+<button onclick="toggleAnswer('eb4')">Show Answer</button>
+<div id="eb4" class="answer">Does he study English?</div>
+</div>
+
+<div class="question-item">
+5. ___ you eat breakfast every day?<br>
+<button onclick="toggleAnswer('eb5')">Show Answer</button>
+<div id="eb5" class="answer">Do you eat breakfast every day?</div>
+</div>
+
+</div>
+
+<!-- 📖 Reading -->
+<h2>📖 5. Short Reading Text（短い読解文）</h2>
+<div class="section-box">
+
+<h3>Asking New Friends</h3>
+
+<p>
+At school, I meet many new friends. I ask simple questions to learn about them. 
+I ask, “Do you like music?” or “Do you play any sports?” Some friends like soccer, 
+and some like reading. I also ask, “Do you have pets?” Asking questions helps me 
+learn more and makes new friends feel happy.
+</p>
+
+<h3>新しい友だちへの質問</h3>
+
+<p class="jp-note">
+学校で私はたくさんの新しい友だちに会います。私は彼らのことを知るために簡単な質問をします。
+「音楽が好きですか」「スポーツをしますか」などと聞きます。サッカーが好きな友だちもいれば、
+読書が好きな友だちもいます。「ペットはいますか」と聞くこともあります。質問をすると相手のことがよく分かり、友だちも嬉しくなります。
+</p>
+
+</div>
+
+<!-- ❓ Questions -->
+<h2>❓ 6. Reading Comprehension Questions（読解問題）</h2>
+<div class="section-box">
+
+<div class="question-item">
+1. Why does the writer ask questions?<br>
+（書き手はなぜ質問をしますか。）<br>
+<button onclick="toggleAnswer('rq1')">Show Answer</button>
+<div id="rq1" class="answer">To learn about new friends.</div>
+</div>
+
+<div class="question-item">
+2. What question does the writer ask about music?<br>
+（音楽についてどんな質問をしますか。）<br>
+<button onclick="toggleAnswer('rq2')">Show Answer</button>
+<div id="rq2" class="answer">“Do you like music?”</div>
+</div>
+
+<div class="question-item">
+3. What do some friends like?<br>
+（友だちの中には何が好きな人がいますか。）<br>
+<button onclick="toggleAnswer('rq3')">Show Answer</button>
+<div id="rq3" class="answer">Soccer or reading.</div>
+</div>
+
+<div class="question-item">
+4. What question does the writer ask about animals?<br>
+（動物についてどんな質問をしますか。）<br>
+<button onclick="toggleAnswer('rq4')">Show Answer</button>
+<div id="rq4" class="answer">“Do you have pets?”</div>
+</div>
+
+<div class="question-item">
+5. How do questions make new friends feel?<br>
+（質問をすると友だちはどう感じますか。）<br>
+<button onclick="toggleAnswer('rq5')">Show Answer</button>
+<div id="rq5" class="answer">Happy.</div>
+</div>
+
+</div>
+
+<!-- 🎯 Summary -->
+<h2>🎯 Summary（まとめ）</h2>
+<div class="section-box">
+
+<ul>
+  <li><strong>Do</strong> is for <strong>I / you / we / they</strong>.<br>
+    <span class="jp-note">Do は I / you / we / they に使います。</span>
+  </li>
+
+  <li><strong>Does</strong> is for <strong>he / she / it</strong>.<br>
+    <span class="jp-note">Does は he / she / it に使います。</span>
+  </li>
+
+  <li>Use the <strong>base verb</strong> after Do / Does.<br>
+    <span class="jp-note">Do / Does の後は動詞の原形です。</span>
+  </li>
+
+  <li>Questions help you <strong>learn about people</strong>.<br>
+    <span class="jp-note">質問すると相手のことがよく分かります。</span>
+  </li>
+</ul>
+
+</div>
+
+<div style="text-align:center; margin-top:30px;">
+  <a href="index.html" style="text-decoration:none; font-size:18px;">⬅️ Back to Index</a>
+</div>
+
+</body>
+</html>

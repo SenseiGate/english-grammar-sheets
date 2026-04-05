@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.63">
+<title>Have to / Don't have to</title>
+
+<style>
+  body {
+    font-family: system-ui, sans-serif;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.7;
+    background: #f5f7fa;
+  }
+.level-badge {
+  display: block;
+  border: 1px solid #333;
+  background: #ffffff;
+  padding: 6px 12px;
+  font-size: 0.85em;
+  line-height: 1.4;
+  margin: 0 auto 10px auto;
+  border-radius: 4px;
+  width: fit-content;
+}
+.badge-line {
+  white-space: nowrap;
+}
+  h1 {
+  text-align: center;
+  font-size: 1.8em;
+  color: #2a4d69;
+  margin-bottom: 10px;
+}
+h2 {
+  background: #E3EEF3;
+  color: #2a4d69;
+  font-size: 1.2em;
+  padding: 12px 20px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  border-radius: 12px 12px 0 0;
+  border: 1px solid #d0d7de;
+  border-bottom: none;
+}
+
+  .level {
+    font-size: 0.95em;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+
+  .section-box {
+    background: #ffffff;
+    border: 1px solid #dde1e7;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    border-radius: 0 0 6px 6px;
+    padding: 18px 22px;
+    margin-top: 0;
+    margin-bottom: 22px;
+  }
+
+  .jp-note {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 0.8em;
+    margin-bottom: 1.2em;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+  }
+
+  th {
+    background: #E3EEF3;
+  }
+
+  .example-en {
+    font-weight: 600;
+  }
+
+  button {
+    margin-top: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+    background: #e0e0e0;
+    color: #333;
+    border: 1px solid #c8c8c8;
+    border-radius: 6px;
+  }
+
+  button:hover {
+    background: #d5d5d5;
+  }
+
+  .answer {
+    display: none;
+    margin-top: 8px;
+    padding: 8px;
+    background: #f0f0f0;
+    border-left: 3px solid #999;
+  }
+</style>
+
+<script>
+function toggleAnswer(id) {
+  const el = document.getElementById(id);
+  const current = window.getComputedStyle(el).display;
+  el.style.display = current === "none" ? "block" : "none";
+}
+</script>
+
+</head>
+<body>
+
+<div class="level-badge">
+  <div class="badge-line">CEFR: A1</div>
+</div>
+</div>
+
+<h1>Lesson 23: Have to / Don't have to</h1>
+
+
+<!-- 📚 Grammar Explanation -->
+<h2>📚 1. Grammar Explanation（文法の説明）</h2>
+<div class="section-box">
+
+<p><strong>Have to</strong> shows obligation. It means something is necessary.</p>
+<p class="jp-note">have to は義務を表し、「〜しなければならない」という意味です。</p>
+
+<p><strong>Don't have to</strong> means something is not necessary. It is not a prohibition.</p>
+<p class="jp-note">don't have to は「〜する必要はない」という意味です。禁止ではありません。</p>
+
+<p>Use <strong>have to + verb</strong>. With <strong>he / she / it</strong>, use <strong>has to</strong> and <strong>doesn't have to</strong>.</p>
+<p class="jp-note">have to + 動詞の原形を使います。he / she / it のときは has to / doesn't have to になります。</p>
+
+<table>
+  <tr><th>Subject</th><th>Form</th><th>Example</th></tr>
+  <tr><td>I / you / we / they</td><td>have to + verb</td><td class="example-en">I have to work.</td></tr>
+  <tr><td>he / she / it</td><td>has to + verb</td><td class="example-en">She has to study.</td></tr>
+  <tr><td>I / you / we / they</td><td>don't have to + verb</td><td class="example-en">You don't have to come.</td></tr>
+  <tr><td>he / she / it</td><td>doesn't have to + verb</td><td class="example-en">He doesn't have to cook.</td></tr>
+  <tr><td>you / we / they</td><td>Do … have to + verb?</td><td class="example-en">Do you have to go?</td></tr>
+  <tr><td>he / she / it</td><td>Does … have to + verb?</td><td class="example-en">Does she have to go?</td></tr>
+</table>
+
+</div>
+<!-- ✏️ Short Example Sentences -->
+<h2>✏️ 2. Short Example Sentences（短い例文）</h2>
+<div class="section-box">
+<ul>
+  <li>I have to wake up early.<br>
+    <div class="jp-note">私は早く起きなければなりません。</div>
+  </li>
+  <li>You don't have to bring anything.<br>
+    <div class="jp-note">何も持ってくる必要はありません。</div>
+  </li>
+  <li>She has to study tonight.<br>
+    <div class="jp-note">彼女は今夜勉強しなければなりません。</div>
+  </li>
+  <li>We don't have to hurry.<br>
+    <div class="jp-note">急ぐ必要はありません。</div>
+  </li>
+  <li>They have to clean the room.<br>
+    <div class="jp-note">彼らは部屋を掃除しなければなりません。</div>
+  </li>
+  <li>He doesn't have to cook today.<br>
+    <div class="jp-note">彼は今日は料理をする必要はありません。</div>
+  </li>
+  <li>Do you have to go now?<br>
+    <div class="jp-note">あなたは今行かなければなりませんか。</div>
+  </li>
+</ul>
+</div>
+<!-- 📝 Longer Example Sentences -->
+<h2>📝 3. Longer Example Sentences（長い例文）</h2>
+<div class="section-box">
+<ul>
+  <li>I have to finish my homework before dinner.<br>
+    <div class="jp-note">夕食の前に宿題を終えなければなりません。</div>
+  </li>
+  <li>You don't have to buy a ticket because it's free.<br>
+    <div class="jp-note">無料なのでチケットを買う必要はありません。</div>
+  </li>
+  <li>She has to take the bus every morning.<br>
+    <div class="jp-note">彼女は毎朝バスに乗らなければなりません。</div>
+  </li>
+  <li>We don't have to stay late after school.<br>
+    <div class="jp-note">放課後遅くまで残る必要はありません。</div>
+  </li>
+  <li>He has to help his brother with homework.<br>
+    <div class="jp-note">彼は弟の宿題を手伝わなければなりません。</div>
+  </li>
+</ul>
+</div>
+
+<!-- 🧩 Practice Exercises -->
+<h2>🧩 4. Practice Exercises（練習問題）</h2>
+<div class="section-box">
+
+<h3>Exercise A – Choose the correct option</h3>
+<p class="jp-note">正しいほうをえらびましょう。（have to / has to / don't have to / doesn't have to）</p>
+
+<p>1) I ______ wake up early on weekdays.<br>a) have to &nbsp;&nbsp; b) don't have to</p>
+<button onclick="toggleAnswer('ea1')">Show Answer</button>
+<div id="ea1" class="answer">a) have to</div>
+
+<p>2) She ______ take the bus. Her dad drives her.<br>a) has to &nbsp;&nbsp; b) doesn't have to</p>
+<button onclick="toggleAnswer('ea2')">Show Answer</button>
+<div id="ea2" class="answer">b) doesn't have to</div>
+
+<p>3) They ______ clean the classroom after school.<br>a) have to &nbsp;&nbsp; b) don't have to</p>
+<button onclick="toggleAnswer('ea3')">Show Answer</button>
+<div id="ea3" class="answer">a) have to</div>
+
+<p>4) He ______ cook dinner tonight. Mom is cooking.<br>a) has to &nbsp;&nbsp; b) doesn't have to</p>
+<button onclick="toggleAnswer('ea4')">Show Answer</button>
+<div id="ea4" class="answer">b) doesn't have to</div>
+
+<p>5) You ______ bring your lunch. The cafeteria is open.<br>a) have to &nbsp;&nbsp; b) don't have to</p>
+<button onclick="toggleAnswer('ea5')">Show Answer</button>
+<div id="ea5" class="answer">b) don't have to</div>
+
+<h3>Exercise B – Complete the sentence</h3>
+<p class="jp-note">文を完成させましょう。（have to / has to / don't have to / doesn't have to を入れましょう）</p>
+
+<p>1) I ______ finish my homework before dinner.</p>
+<button onclick="toggleAnswer('eb1')">Show Answer</button>
+<div id="eb1" class="answer">have to</div>
+
+<p>2) She ______ study for the test tonight.</p>
+<button onclick="toggleAnswer('eb2')">Show Answer</button>
+<div id="eb2" class="answer">has to</div>
+
+<p>3) You ______ bring your umbrella. It's sunny today.</p>
+<button onclick="toggleAnswer('eb3')">Show Answer</button>
+<div id="eb3" class="answer">don't have to</div>
+
+<p>4) We ______ leave early tomorrow. The train is at 7.</p>
+<button onclick="toggleAnswer('eb4')">Show Answer</button>
+<div id="eb4" class="answer">have to</div>
+
+<p>5) He ______ clean the kitchen. His sister already did it.</p>
+<button onclick="toggleAnswer('eb5')">Show Answer</button>
+<div id="eb5" class="answer">doesn't have to</div>
+
+</div>
+
+<!-- 📖 Reading -->
+<h2>📖 5. Short Reading Text（短い読解文）</h2>
+<div class="section-box">
+
+<h3>My Busy Monday</h3>
+
+<p>
+My Monday is always very busy. I have to wake up early because I have a morning meeting at school.  
+I have to bring my homework and my lunch. I don’t have to take the bus, because my dad drives me.  
+After school, I have to go to piano class. I don’t have to cook dinner, but I have to help set the table.  
+Even though it’s a busy day, I feel good when I finish everything.
+</p>
+
+<h3>忙しい月曜日</h3>
+
+<p class="jp-note">
+私の月曜日はいつもとても忙しいです。学校で朝の会があるので早く起きなければなりません。  
+宿題とお弁当を持っていかなければなりません。父が車で送ってくれるのでバスに乗る必要はありません。  
+放課後はピアノのレッスンに行かなければなりません。夕食を作る必要はありませんが、テーブルを準備しなければなりません。  
+忙しい日ですが、全部終わると気持ちがいいです。
+</p>
+
+</div>
+
+<!-- ❓ Questions -->
+<h2>❓ 6. Reading Comprehension Questions（読解問題）</h2>
+<div class="section-box">
+
+<p>1) Why does the writer have to wake up early?<br><span class="jp-note">なぜ早く起きなければなりませんか。</span></p>
+<button onclick="toggleAnswer('rq1')">Show Answer</button>
+<div id="rq1" class="answer">Because there is a morning meeting at school.</div>
+
+<p>2) What does the writer have to bring?<br><span class="jp-note">何を持っていかなければなりませんか。</span></p>
+<button onclick="toggleAnswer('rq2')">Show Answer</button>
+<div id="rq2" class="answer">Homework and lunch.</div>
+
+<p>3) Why doesn’t the writer have to take the bus?<br><span class="jp-note">なぜバスに乗る必要がありませんか。</span></p>
+<button onclick="toggleAnswer('rq3')">Show Answer</button>
+<div id="rq3" class="answer">Because the writer’s dad drives them.</div>
+
+<p>4) What does the writer have to do after school?<br><span class="jp-note">放課後に何をしなければなりませんか。</span></p>
+<button onclick="toggleAnswer('rq4')">Show Answer</button>
+<div id="rq4" class="answer">Go to piano class.</div>
+
+<p>5) What does the writer have to do at dinner time?<br><span class="jp-note">夕食の時間に何をしなければなりませんか。</span></p>
+<button onclick="toggleAnswer('rq5')">Show Answer</button>
+<div id="rq5" class="answer">Help set the table.</div>
+
+</div>
+
+<!-- 🎯 Summary -->
+<h2>🎯 Summary（まとめ）</h2>
+<div class="section-box">
+
+<ul>
+  <li><strong>Have to</strong> shows obligation.<br>
+  <span class="jp-note">have to は義務を表します。</span></li>
+
+  <li><strong>Don’t have to</strong> means something is not necessary.<br>
+  <span class="jp-note">don’t have to は必要がないことを表します。</span></li>
+
+  <li>Use <strong>Do you have to…?</strong> to ask about obligation.<br>
+  <span class="jp-note">義務をたずねるときは Do you have to…? を使います。</span></li>
+
+  <li><strong>Don’t have to</strong> is different from <strong>mustn’t</strong>.<br>
+  <span class="jp-note">don’t have to と mustn’t は全く違う意味です。</span></li>
+</ul>
+
+</div>
+
+<div style="text-align:center; margin-top:30px;">
+  <a href="index.html" style="text-decoration:none; font-size:18px;">⬅️ Back to Index</a>
+</div>
+
+</body>
+</html>

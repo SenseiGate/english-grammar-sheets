@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.63">
+<title>Some / Any</title>
+
+<style>
+  body {
+    font-family: system-ui, sans-serif;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.7;
+    background: #f5f7fa;
+  }
+.level-badge {
+  display: block;
+  border: 1px solid #333;
+  background: #ffffff;
+  padding: 6px 12px;
+  font-size: 0.85em;
+  line-height: 1.4;
+  margin: 0 auto 10px auto;
+  border-radius: 4px;
+  width: fit-content;
+}
+.badge-line {
+  white-space: nowrap;
+}
+h1 {
+  text-align: center;
+  font-size: 1.8em;
+  color: #2a4d69;
+  margin-bottom: 10px;
+}
+h2 {
+  background: #E3EEF3;
+  color: #2a4d69;
+  font-size: 1.2em;
+  padding: 12px 20px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  border-radius: 12px 12px 0 0;
+  border: 1px solid #d0d7de;
+  border-bottom: none;
+}
+
+  .level {
+    font-size: 0.95em;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+
+  .section-box {
+    background: #ffffff;
+    border: 1px solid #dde1e7;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    border-radius: 0 0 6px 6px;
+    padding: 18px 22px;
+    margin-top: 0;
+    margin-bottom: 22px;
+  }
+
+  .jp-note {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 0.8em;
+    margin-bottom: 1.2em;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+  }
+
+  th {
+    background: #E3EEF3;
+  }
+
+  .example-en {
+    font-weight: 600;
+  }
+
+  button {
+    margin-top: 5px;
+    padding: 6px 10px;
+    cursor: pointer;
+    background: #e0e0e0;
+    color: #333;
+    border: 1px solid #c8c8c8;
+    border-radius: 6px;
+  }
+
+  button:hover {
+    background: #d5d5d5;
+  }
+
+  .answer {
+    display: none;
+    margin-top: 8px;
+    padding: 8px;
+    background: #f0f0f0;
+    border-left: 3px solid #999;
+  }
+</style>
+
+<script>
+function toggleAnswer(id) {
+  const el = document.getElementById(id);
+  const current = window.getComputedStyle(el).display;
+  el.style.display = current === "none" ? "block" : "none";
+}
+</script>
+
+</head>
+<body>
+
+<div class="level-badge">
+  <div class="badge-line">CEFR: A1</div>
+</div>
+</div>
+
+<h1>Lesson 17: Some / Any</h1>
+
+
+<!-- 📚 Grammar Explanation -->
+<h2>📚 1. Grammar Explanation（文法の説明）</h2>
+<div class="section-box">
+
+<p>We use <strong>some</strong> and <strong>any</strong> to talk about an unspecified amount.</p>
+<p class="jp-note">「some」と「any」は、はっきりしない量について話すときに使います。</p>
+
+<p>Use <strong>some</strong> in positive sentences. Use <strong>any</strong> in negative sentences and questions.</p>
+<p class="jp-note">肯定文では some、否定文と疑問文では any を使います。</p>
+
+<table>
+  <tr><th>Form</th><th>Use</th><th>Example</th></tr>
+  <tr><td>some</td><td>Positive</td><td class="example-en">I have some apples.</td></tr>
+  <tr><td>any</td><td>Negative / Questions</td><td class="example-en">Do you have any apples?</td></tr>
+</table>
+
+<p>Use <strong>some</strong> in questions when offering or requesting.</p>
+<p class="jp-note">申し出や依頼の疑問文では some を使うことがあります。</p>
+
+</div>
+<!-- ✏️ Short Example Sentences -->
+<h2>✏️ 2. Short Example Sentences（短い例文）</h2>
+<div class="section-box">
+<ul>
+  <li>I have some water.<br>
+    <div class="jp-note">私は水を少し持っています。</div>
+  </li>
+  <li>She does not have any money.<br>
+    <div class="jp-note">彼女はお金を持っていません。</div>
+  </li>
+  <li>Do you have any questions?<br>
+    <div class="jp-note">何か質問はありますか。</div>
+  </li>
+  <li>I need some help.<br>
+    <div class="jp-note">私は少し助けが必要です。</div>
+  </li>
+  <li>They do not have any food.<br>
+    <div class="jp-note">彼らは食べ物を持っていません。</div>
+  </li>
+  <li>Can I have some water?<br>
+    <div class="jp-note">水を少しいただけますか。</div>
+  </li>
+  <li>Would you like some tea?<br>
+    <div class="jp-note">紅茶はいかがですか。</div>
+  </li>
+</ul>
+</div>
+<!-- 📝 Longer Example Sentences -->
+<h2>📝 3. Longer Example Sentences（長い例文）</h2>
+<div class="section-box">
+<ul>
+  <li>I have some apples, but I do not have any oranges.<br>
+    <div class="jp-note">私はりんごはいくつかありますが、オレンジはありません。</div>
+  </li>
+  <li>She needs some water because she does not have any drinks.<br>
+    <div class="jp-note">彼女は飲み物がないので水が少し必要です。</div>
+  </li>
+  <li>Do you have any bread, or do you need some?<br>
+    <div class="jp-note">パンはありますか、それとも少し必要ですか。</div>
+  </li>
+  <li>They do not have any time, so they need some help.<br>
+    <div class="jp-note">彼らには時間がないので、少し助けが必要です。</div>
+  </li>
+  <li>Can I have some information about this event?<br>
+    <div class="jp-note">このイベントについて少し情報をいただけますか。</div>
+  </li>
+</ul>
+</div>
+
+<!-- 🧩 Practice Exercises -->
+<h2>🧩 4. Practice Exercises（練習問題）</h2>
+<div class="section-box">
+
+<h3>Exercise A – Choose the correct option</h3>
+<p class="jp-note">正しい語を選びましょう。</p>
+
+<p>1) I have ______ friends.<br>a) some b) any</p>
+<button onclick="toggleAnswer('ea1')">Show Answer</button>
+<div id="ea1" class="answer">a) some</div>
+
+<p>2) Do you have ______ questions?<br>a) some b) any</p>
+<button onclick="toggleAnswer('ea2')">Show Answer</button>
+<div id="ea2" class="answer">b) any</div>
+
+<p>3) She does not have ______ time.<br>a) some b) any</p>
+<button onclick="toggleAnswer('ea3')">Show Answer</button>
+<div id="ea3" class="answer">b) any</div>
+
+<p>4) I need ______ help.<br>a) some b) any</p>
+<button onclick="toggleAnswer('ea4')">Show Answer</button>
+<div id="ea4" class="answer">a) some</div>
+
+<p>5) They do not have ______ food.<br>a) some b) any</p>
+<button onclick="toggleAnswer('ea5')">Show Answer</button>
+<div id="ea5" class="answer">b) any</div>
+
+<h3>Exercise B – Complete the sentence</h3>
+<p class="jp-note">文を完成させましょう。（選択肢なし）</p>
+
+<p>1) I have ______ questions.</p>
+<button onclick="toggleAnswer('eb1')">Show Answer</button>
+<div id="eb1" class="answer">some</div>
+
+<p>2) Do you have ______ water?</p>
+<button onclick="toggleAnswer('eb2')">Show Answer</button>
+<div id="eb2" class="answer">any</div>
+
+<p>3) She does not have ______ money.</p>
+<button onclick="toggleAnswer('eb3')">Show Answer</button>
+<div id="eb3" class="answer">any</div>
+
+<p>4) Can I have ______ tea?</p>
+<button onclick="toggleAnswer('eb4')">Show Answer</button>
+<div id="eb4" class="answer">some</div>
+
+<p>5) They need ______ help today.</p>
+<button onclick="toggleAnswer('eb5')">Show Answer</button>
+<div id="eb5" class="answer">some</div>
+
+</div>
+
+<!-- 📖 Reading -->
+<h2>📖 5. Short Reading Text（短い読解文）</h2>
+<div class="section-box">
+
+<h3>The Empty Fridge</h3>
+
+<p>
+Our fridge is almost empty today. We do not have any milk, and there is no bread.  
+My brother wants some juice, but we do not have any.  
+My mother needs some vegetables for dinner, but there are none left.  
+We need to go shopping soon, because we do not have any food for tonight.
+</p>
+
+<h3>空っぽの冷蔵庫</h3>
+
+<p class="jp-note">
+今日、冷蔵庫はほとんど空です。牛乳もなく、パンもありません。  
+弟はジュースがほしいですが、ありません。  
+母は夕食のために野菜が少し必要ですが、もう残っていません。  
+今夜の食べ物がないので、すぐに買い物に行く必要があります。
+</p>
+
+</div>
+
+<!-- ❓ Questions -->
+<h2>❓ 6. Reading Comprehension Questions（読解問題）</h2>
+<div class="section-box">
+
+<p>1) What is almost empty?<br><span class="jp-note">何がほとんど空ですか。</span></p>
+<button onclick="toggleAnswer('rq1')">Show Answer</button>
+<div id="rq1" class="answer">The fridge.</div>
+
+<p>2) What does the brother want?<br><span class="jp-note">弟は何がほしいですか。</span></p>
+<button onclick="toggleAnswer('rq2')">Show Answer</button>
+<div id="rq2" class="answer">Some juice.</div>
+
+<p>3) What does the mother need?<br><span class="jp-note">母は何を必要としていますか。</span></p>
+<button onclick="toggleAnswer('rq3')">Show Answer</button>
+<div id="rq3" class="answer">Some vegetables.</div>
+
+<p>4) Why do they need to go shopping?<br><span class="jp-note">なぜ買い物に行く必要がありますか。</span></p>
+<button onclick="toggleAnswer('rq4')">Show Answer</button>
+<div id="rq4" class="answer">Because they do not have any food.</div>
+
+<p>5) Do they have any bread?<br><span class="jp-note">パンはありますか。</span></p>
+<button onclick="toggleAnswer('rq5')">Show Answer</button>
+<div id="rq5" class="answer">No, they do not.</div>
+
+</div>
+
+<!-- 🎯 Summary -->
+<h2>🎯 Summary（まとめ）</h2>
+<div class="section-box">
+
+<ul>
+  <li><strong>some</strong> is used in positive sentences.<br>
+  <span class="jp-note">肯定文で some を使います。</span></li>
+
+  <li><strong>any</strong> is used in negative sentences and questions.<br>
+  <span class="jp-note">否定文と疑問文で any を使います。</span></li>
+
+  <li><strong>some</strong> can appear in offers and requests.<br>
+  <span class="jp-note">申し出や依頼では some を使うことがあります。</span></li>
+
+  <li><strong>Use them</strong> for unspecified amounts.<br>
+  <span class="jp-note">はっきりしない量について使います。</span></li>
+</ul>
+
+</div>
+
+<div style="text-align:center; margin-top:30px;">
+  <a href="index.html" style="text-decoration:none; font-size:18px;">⬅️ Back to Index</a>
+</div>
+
+</body>
+</html>

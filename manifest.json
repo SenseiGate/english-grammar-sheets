@@ -1,0 +1,33 @@
+{
+  "name": "Adrian Sensei – English Grammar Sheets",
+  "short_name": "Adrian Sensei",
+  "start_url": "/English-Files/index.html",
+  "scope": "/English-Files/",
+  "display": "standalone",
+  "background_color": "#e3eef3",
+  "theme_color": "#e3eef3",
+  "orientation": "any",
+  "dir": "ltr",
+  "id": "com.adriansensei.english",
+  "description": "Clear, structured grammar sheets for independent English learners.",
+  "icons": [
+    {
+      "src": "assets/icons/icon_uk_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon_uk_384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon_uk_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
