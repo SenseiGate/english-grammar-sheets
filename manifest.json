@@ -1,6 +1,6 @@
 {
   "name": "SenseiGate – English Grammar Sheets",
-  "short_name": "SG English",
+  "short_name": "SenseiGate",
   "start_url": "index.html",
   "scope": "./",
   "display": "standalone",
