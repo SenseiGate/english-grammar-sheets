@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=0.60">
   <title>English Interactive Grammar Sheets</title>
 
-  <!-- Manifest -->
   <link rel="manifest" href="manifest.json">
 
   <style>
@@ -173,3 +172,21 @@
   </div>
 
   <div style="margin-top: 40px; display: flex; align-items: center; justify-content: center; gap: 20px;">
+    <img src="SG_logo_512.png" class="profile-pic" alt="SenseiGate Logo">
+  </div>
+
+  <div class="footer-note">
+    © <span id="year"></span> SenseiGate — English Interactive Grammar Sheets
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./service-worker.js')
+        .catch(err => console.log('SW reg error', err));
+    }
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
