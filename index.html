@@ -74,7 +74,6 @@
       background-color: #0056b3;
     }
 
-    /* ⭐ Nuevo estilo para el enlace CEFR/EIKEN */
     .link-blue {
       color: #007BFF;
       text-decoration: none;
@@ -124,17 +123,18 @@
     }
 
     .profile-pic {
-      margin-top: 12px;
-      width: 140px;
-      height: 140px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 3px solid #E3EEF3;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
-    }
+  margin-top: 12px;
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+
 
     .footer-note {
-      margin-top: 25px;
+      margin-top: 5px;
       font-size: 13px;
       color: #333;
     }
@@ -168,20 +168,18 @@
     </table>
   </div>
 
-  <!-- ⭐ Disclaimer EN + JP (versión corta) -->
   <div style="font-size: 12px; color: #555; max-width: 600px; margin: 10px auto 20px; text-align: left;">
     Lessons reference CEFR/EIKEN, but alignment is approximate and may not fully match official standards.<br>
     本サイトのレッスンは CEFR と英検を参考にしていますが、この対応は概略であり、公式基準と完全に一致しない場合があります。
   </div>
 
   <div style="margin-top: 40px; display: flex; align-items: center; justify-content: center; gap: 20px;">
-    <img src="adrian_sensei.jpg" class="profile-pic" alt="Adrian Sensei">
-    <div class="signature" style="margin: 0;">Created by Adrian Sensei</div>
+    <img src="SG_logo_512.png" class="profile-pic" alt="SenseiGate">
+    
   </div>
 
-  <!-- ⭐ Footer con año automático -->
   <div class="footer-note">
-    © <span id="year"></span> Adrian Sensei. All rights reserved. 無断転載を禁じます。
+    © <span id="year"></span> SenseiGate. All rights reserved. 無断転載を禁じます。
   </div>
 
   <script>
@@ -189,7 +187,6 @@
       navigator.serviceWorker.register('service-worker.js');
     }
 
-    // Año automático
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 
