@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=0.60">
   <title>English Interactive Grammar Sheets</title>
 
+  <!-- Manifest -->
   <link rel="manifest" href="manifest.json">
 
   <style>
@@ -122,14 +123,15 @@
     }
 
     .profile-pic {
-      margin-top: 12px;
-      width: 140px;
-      height: 140px;
-      object-fit: contain;
-      border-radius: 0;
-      border: none;
-      box-shadow: none;
-    }
+  margin-top: 12px;
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+
 
     .footer-note {
       margin-top: 5px;
@@ -172,17 +174,17 @@
   </div>
 
   <div style="margin-top: 40px; display: flex; align-items: center; justify-content: center; gap: 20px;">
-    <img src="SG_logo_512.png" class="profile-pic" alt="SenseiGate Logo">
+    <img src="SG_logo_512.png" class="profile-pic" alt="SenseiGate">
+    
   </div>
 
   <div class="footer-note">
-    © <span id="year"></span> SenseiGate — English Interactive Grammar Sheets
+    © <span id="year"></span> SenseiGate. All rights reserved. 無断転載を禁じます。
   </div>
 
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./service-worker.js')
-        .catch(err => console.log('SW reg error', err));
+      navigator.serviceWorker.register('service-worker.js');
     }
 
     document.getElementById("year").textContent = new Date().getFullYear();
