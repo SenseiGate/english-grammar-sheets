@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=0.60">
   <title>English Interactive Grammar Sheets</title>
 
+  <!-- Manifest -->
   <link rel="manifest" href="manifest.json">
 
   <style>
@@ -122,14 +123,15 @@
     }
 
     .profile-pic {
-      margin-top: 12px;
-      width: 140px;
-      height: 140px;
-      object-fit: contain;
-      border-radius: 0;
-      border: none;
-      box-shadow: none;
-    }
+  margin-top: 12px;
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+
 
     .footer-note {
       margin-top: 5px;
@@ -138,59 +140,55 @@
     }
   </style>
 </head>
-
 <body>
 
-<div style="text-align:center; margin-top:10px; margin-bottom:20px;">
-  <img src="assets/icons/senseigate_logo.png" style="width:120px; height:auto;">
-</div>
+  <h1>English Interactive Grammar Sheets</h1>
 
-<h1>English Interactive Grammar Sheets</h1>
+  <h2>Clear, structured grammar sheets for independent learners</h2>
+  <p>自分で学び進めたい人のための、わかりやすく整理された文法シート</p>
 
-<h2>Clear, structured grammar sheets for independent learners</h2>
-<p>自分で学び進めたい人のための、わかりやすく整理された文法シート</p>
+  <div class="section-title">Choose Your Level</div>
 
-<div class="section-title">Choose Your Level</div>
+  <a class="btn" href="a1/index.html">A1 Grammar Sheets</a>
+  <a class="btn" href="a2/index.html">A2 / B1 Grammar Sheets</a>
+  <a class="btn" href="b1_b2/index.html">B1 / B2 Grammar Sheets</a>
 
-<a class="btn" href="a1/index.html">A1 Grammar Sheets</a>
-<a class="btn" href="a2/index.html">A2 / B1 Grammar Sheets</a>
-<a class="btn" href="b1_b2/index.html">B1 / B2 Grammar Sheets</a>
+  <div class="mini-table">
+    <table>
+      <tr>
+        <th colspan="2">
+          <a href="cefr_eiken_guide.html" class="link-blue">CEFR ↔ EIKEN Levels</a>
+        </th>
+      </tr>
+      <tr><td>C1</td><td>Grade 1</td></tr>
+      <tr><td>B2</td><td>Pre-1</td></tr>
+      <tr><td>B1</td><td>Grade 2</td></tr>
+      <tr><td>A2</td><td>Pre-2</td></tr>
+      <tr><td>A1</td><td>Grade 3 / 4 / 5</td></tr>
+    </table>
+  </div>
 
-<div class="mini-table">
-  <table>
-    <tr>
-      <th colspan="2">
-        <a href="cefr_eiken_guide.html" class="link-blue">CEFR ↔ EIKEN Levels</a>
-      </th>
-    </tr>
-    <tr><td>C1</td><td>Grade 1</td></tr>
-    <tr><td>B2</td><td>Pre-1</td></tr>
-    <tr><td>B1</td><td>Grade 2</td></tr>
-    <tr><td>A2</td><td>Pre-2</td></tr>
-    <tr><td>A1</td><td>Grade 3 / 4 / 5</td></tr>
-  </table>
-</div>
+  <div style="font-size: 12px; color: #555; max-width: 600px; margin: 10px auto 20px; text-align: left;">
+    Lessons reference CEFR/EIKEN, but alignment is approximate and may not fully match official standards.<br>
+    本サイトのレッスンは CEFR と英検を参考にしていますが、この対応は概略であり、公式基準と完全に一致しない場合があります。
+  </div>
 
-<div style="font-size: 12px; color: #555; max-width: 600px; margin: 10px auto 20px; text-align: left;">
-  Lessons reference CEFR/EIKEN, but alignment is approximate and may not fully match official standards.<br>
-  本サイトのレッスンは CEFR と英検を参考にしていますが、この対応は概略であり、公式基準と完全に一致しない場合があります。
-</div>
+  <div style="margin-top: 40px; display: flex; align-items: center; justify-content: center; gap: 20px;">
+    <img src="SG_logo_512.png" class="profile-pic" alt="SenseiGate">
+    
+  </div>
 
-<div style="margin-top: 40px; display: flex; align-items: center; justify-content: center; gap: 20px;">
-  <img src="SG_logo_512.png" class="profile-pic" alt="SenseiGate">
-</div>
+  <div class="footer-note">
+    © <span id="year"></span> SenseiGate. All rights reserved. 無断転載を禁じます。
+  </div>
 
-<div class="footer-note">
-  © <span id="year"></span> SenseiGate. All rights reserved. 無断転載を禁じます。
-</div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
 
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('service-worker.js');
-  }
-
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
 </body>
 </html>
